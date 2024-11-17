@@ -1,0 +1,73 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #4CAF50;
+}
+
+.dashboard {
+  margin-top: 20px;
+}
+
+.progress {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #e0f7fa;
+  border: 5px solid #4CAF50;
+}
+
+.progress .bus-icon {
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.progress .circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.co2-saved {
+  margin-top: 10px;
+  color: #00796B;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+.actions .pause-btn,
+.actions .end-btn {
+  background-color: #FF7043;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.actions .end-btn {
+  background-color: #4CAF50;
+}
